@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Israel Granda · Portafolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header><nav>
+<span class="logo">Israel <b>Granda</b></span>
+<a class="tab" href="#datos">Datos generales</a>
+<a class="tab" href="#proyectos">Galería de proyectos</a>
+<a class="tab" href="#hobbies">Hobbies</a>
+<button id="theme" type="button" aria-label="Cambiar entre modo claro y oscuro">☾ / ☀</button>
+</nav></header>
+<main>
+
+<section id="v-datos" class="view">
+<div class="hero" style="background-image:url(assets/img/fondo-portada.jpg)">
+<div><p class="tag">Diseño gráfico · Universidad del Azuay</p><h1>Israel Granda</h1>
+<p class="lead">Marcas, personajes y tipografía con una idea clara detrás de cada pieza.</p>
+<a class="btn" href="#proyectos">Ver proyectos</a><a class="btn o" href="#contacto">Contacto</a></div></div>
+<div class="win about rv"><label class="avatar" title="Haz clic para cargar tu foto"><span id="ini">IG</span><input id="foto" type="file" accept="image/*" hidden></label>
+<div><p class="tag">Sobre mí</p><h2>Hola, soy Israel</h2><p>Estudiante de Diseño Gráfico en la Facultad de Diseño, Arquitectura y Arte. Me interesa construir identidades de marca, ilustración de personajes y tipografía experimental.</p></div></div>
+<div class="grid">
+<div class="win rv"><h3>🎓 Formación</h3><p>Escuela de Diseño Gráfico, Universidad del Azuay (Cuenca, Ecuador).</p></div>
+<div class="win rv"><h3>🛠 Habilidades</h3>
+<span class="chip">Identidad de marca</span><span class="chip">Manuales de marca</span><span class="chip">Tipografía</span><span class="chip">Ilustración</span><span class="chip">Maquetación</span><span class="chip">Mockups</span><span class="chip">Photoshop</span><span class="chip">Illustrator</span><span class="chip">HTML / CSS</span></div>
+</div>
+<div class="win rv" id="contacto"><h3>✉ Contacto</h3>
+<form onsubmit="return enviar(this)"><input name="n" placeholder="Tu nombre" required><input name="e" type="email" placeholder="Tu correo" required><textarea name="m" rows="3" placeholder="Mensaje" required></textarea><button class="btn" type="submit">Enviar mensaje</button></form>
+</div>
+</section>
+
+<section id="v-proyectos" class="view">
+<h2>Galería de proyectos</h2>
+<div class="sub"><a href="#camanay">Camanay</a><a href="#lyny">Lyny</a><a href="#vibe">Vibe like You</a><a href="#monstruim">Monstruim</a><a href="#tipo">Reinterpretación tipográfica</a><a href="#alfabeto">Alfabeto modular</a><a href="#ford">Ford vs Ferrari</a><a href="#positivo">Positivo y negativo</a></div><div class="mas">
+
+<article class="win proj rv" id="camanay"><div class="im"><img src="assets/img/camanay.jpg" alt="Camanay"></div><div class="tx"><p class="tag">Marca de ropa</p><h3>Camanay</h3><p>Marca que nace de la autenticidad, la libertad y la energía del piquero de patas azules. Incluye retícula del isotipo, guía de marca y mockup de buzo.</p><span class="chip">Illustrator</span><span class="chip">Photoshop</span><div class="gal"><img loading="lazy" src="assets/img/gal/camanay-01.jpg" alt="camanay imagen 1"><img loading="lazy" src="assets/img/gal/camanay-02.jpg" alt="camanay imagen 2"><img loading="lazy" src="assets/img/gal/camanay-03.jpg" alt="camanay imagen 3"><img loading="lazy" src="assets/img/gal/camanay-04.jpg" alt="camanay imagen 4"><img loading="lazy" src="assets/img/gal/camanay-05.jpg" alt="camanay imagen 5"><img loading="lazy" src="assets/img/gal/camanay-06.jpg" alt="camanay imagen 6"></div></div></article>
+
+<article class="win proj rv" id="lyny"><div class="im"><img src="assets/img/lyny.jpg" alt="Lyny"></div><div class="tx"><p class="tag">Smartphones · Manual de marca</p><h3>Lyny</h3><p>Marca de smartphones de gama media-alta que une diseño, IA y creatividad para jóvenes de 18 a 30 años. Manual con forma, tipografía y cromática.</p><span class="chip">Illustrator</span><span class="chip">Photoshop (mockup)</span><div class="gal"><img loading="lazy" src="assets/img/gal/lyny-01.jpg" alt="lyny imagen 1"><img loading="lazy" src="assets/img/gal/lyny-02.jpg" alt="lyny imagen 2"><img loading="lazy" src="assets/img/gal/lyny-03.jpg" alt="lyny imagen 3"><img loading="lazy" src="assets/img/gal/lyny-04.jpg" alt="lyny imagen 4"><img loading="lazy" src="assets/img/gal/lyny-05.jpg" alt="lyny imagen 5"><img loading="lazy" src="assets/img/gal/lyny-06.jpg" alt="lyny imagen 6"><img loading="lazy" src="assets/img/gal/lyny-07.jpg" alt="lyny imagen 7"><img loading="lazy" src="assets/img/gal/lyny-08.jpg" alt="lyny imagen 8"><img loading="lazy" src="assets/img/gal/lyny-09.jpg" alt="lyny imagen 9"><img loading="lazy" src="assets/img/gal/lyny-10.jpg" alt="lyny imagen 10"></div></div></article>
+
+<article class="win proj rv" id="vibe"><div class="im"><img src="assets/img/vibe-like-you.jpg" alt="Vibe like You"></div><div class="tx"><p class="tag">Identidad · Guía de marca</p><h3>Vibe like You</h3><p>Guía de marca con símbolo, logotipo, estilo, creatividad y confianza como ejes, además de mockups de cartas de presentación.</p><span class="chip">Illustrator</span><span class="chip">Photoshop</span><div class="gal"><img loading="lazy" src="assets/img/gal/vibe-01.jpg" alt="vibe imagen 1"><img loading="lazy" src="assets/img/gal/vibe-02.jpg" alt="vibe imagen 2"><img loading="lazy" src="assets/img/gal/vibe-03.jpg" alt="vibe imagen 3"><img loading="lazy" src="assets/img/gal/vibe-04.jpg" alt="vibe imagen 4"><img loading="lazy" src="assets/img/gal/vibe-05.jpg" alt="vibe imagen 5"><img loading="lazy" src="assets/img/gal/vibe-06.jpg" alt="vibe imagen 6"><img loading="lazy" src="assets/img/gal/vibe-07.jpg" alt="vibe imagen 7"><img loading="lazy" src="assets/img/gal/vibe-08.jpg" alt="vibe imagen 8"><img loading="lazy" src="assets/img/gal/vibe-09.jpg" alt="vibe imagen 9"><img loading="lazy" src="assets/img/gal/vibe-10.jpg" alt="vibe imagen 10"><img loading="lazy" src="assets/img/gal/vibe-11.jpg" alt="vibe imagen 11"><img loading="lazy" src="assets/img/gal/vibe-12.jpg" alt="vibe imagen 12"></div></div></article>
+
+<article class="win proj rv" id="monstruim"><div class="im"><img src="assets/img/monstruim.jpg" alt="Monstruim"></div><div class="tx"><p class="tag">Ilustración de personajes</p><h3>Monstruim</h3><p>Serie de monstruos que representan males contemporáneos: trastorno alimenticio, depresión y ansiedad, adicción a la tecnología, tabaquismo y alzhéimer.</p><span class="chip">Ilustración</span><span class="chip">Editorial A5</span><div class="gal"><img loading="lazy" src="assets/img/gal/monstruim-01.jpg" alt="monstruim imagen 1"><img loading="lazy" src="assets/img/gal/monstruim-02.jpg" alt="monstruim imagen 2"><img loading="lazy" src="assets/img/gal/monstruim-03.jpg" alt="monstruim imagen 3"><img loading="lazy" src="assets/img/gal/monstruim-04.jpg" alt="monstruim imagen 4"><img loading="lazy" src="assets/img/gal/monstruim-05.jpg" alt="monstruim imagen 5"></div></div></article>
+
+<article class="win proj rv" id="tipo"><div class="im"><img src="assets/img/tipografia-cromatica.jpg" alt="Reinterpretación tipográfica"></div><div class="tx"><p class="tag">Tipografía y color</p><h3>Reinterpretación tipográfica-cromática</h3><p>Análisis formal de una tipografía display estilo graffiti throw-up y variaciones cromáticas con referencias visuales.</p><span class="chip">Illustrator</span><div class="gal"><img loading="lazy" src="assets/img/gal/tipo-01.jpg" alt="tipo imagen 1"><img loading="lazy" src="assets/img/gal/tipo-02.jpg" alt="tipo imagen 2"><img loading="lazy" src="assets/img/gal/tipo-03.jpg" alt="tipo imagen 3"><img loading="lazy" src="assets/img/gal/tipo-04.jpg" alt="tipo imagen 4"><img loading="lazy" src="assets/img/gal/tipo-05.jpg" alt="tipo imagen 5"></div></div></article>
+
+<article class="win proj rv" id="alfabeto"><div class="im"><img src="assets/img/alfabeto-modular.jpg" alt="Alfabeto modular"></div><div class="tx"><p class="tag">Tipografía experimental</p><h3>Alfabeto modular</h3><p>Abecedario construido con módulos gráficos sobre fondo verde, trabajado como ejercicio de tipografía.</p><span class="chip">Photoshop</span></div></article>
+
+<article class="win proj rv" id="ford"><div class="im"><img src="assets/img/ford-vs-ferrari.jpg" alt="Ford vs Ferrari"></div><div class="tx"><p class="tag">Cartel</p><h3>Ford vs Ferrari · Le Mans ’66</h3><p>Cartel de la película con composición simétrica entre los dos autos y bandas de color como eje central.</p><span class="chip">Photoshop</span><div class="gal"><img loading="lazy" src="assets/img/gal/ford-01.jpg" alt="ford imagen 1"><img loading="lazy" src="assets/img/gal/ford-02.jpg" alt="ford imagen 2"><img loading="lazy" src="assets/img/gal/ford-03.jpg" alt="ford imagen 3"><img loading="lazy" src="assets/img/gal/ford-04.jpg" alt="ford imagen 4"><img loading="lazy" src="assets/img/gal/ford-05.jpg" alt="ford imagen 5"></div></div></article>
+<article class="win proj rv" id="positivo"><div class="im"><img src="assets/img/gal/positivo-01.jpg" alt="Positivo y negativo"></div><div class="tx"><p class="tag">Ejercicio gráfico</p><h3>Positivo y negativo</h3><p>Retrato trabajado en blanco y negro: versión positiva, negativa y reducción a píxeles para estudiar contraste y síntesis de la forma.</p><span class="chip">Illustrator</span><div class="gal"><img loading="lazy" src="assets/img/gal/positivo-01.jpg" alt="positivo imagen 1"><img loading="lazy" src="assets/img/gal/positivo-02.jpg" alt="positivo imagen 2"></div></div></article>
+</div>
+</section>
+
+<section id="v-hobbies" class="view">
+<h2>Hobbies</h2>
+<div class="grid">
+<div class="win hob rv"><span class="ic">✏️</span><h3>Dibujar</h3><p>Bocetar personajes e ideas es mi forma de pensar.</p></div>
+<div class="win hob rv"><span class="ic">🏋️</span><h3>Deporte y ejercicio</h3><p>Moverme me da energía y disciplina.</p></div>
+<div class="win hob rv"><span class="ic">✈️</span><h3>Viajar</h3><p>Conocer lugares nuevos alimenta mi creatividad.</p></div>
+<div class="win hob rv"><span class="ic">📷</span><h3>Fotografía</h3><p>Observar luz, encuadre y color.</p></div>
+<div class="win hob rv"><span class="ic">🎮</span><h3>Videojuegos</h3><p>Mundos e historias con diseño visual increíble.</p></div>
+<div class="win hob rv"><span class="ic">🎬</span><h3>Ver películas</h3><p>Referencias de narrativa, carteles y estética.</p></div>
+<div class="win hob rv"><span class="ic">🍳</span><h3>Cocinar</h3><p>Probar recetas es otra forma de diseñar.</p></div>
+</div>
+</section>
+</main>
+<footer>© 2026 Israel Granda · Universidad del Azuay</footer>
+<div id="lb" hidden><button id="lbx" aria-label="Cerrar">×</button><button id="lbp" aria-label="Anterior">‹</button><img alt=""><button id="lbn" aria-label="Siguiente">›</button></div>
+<script src="main.js"></script>
+</body>
+</html>
